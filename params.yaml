@@ -2,4 +2,4 @@ data_collection:
     test_size: 0.20
 
 model_building:
-    n_estimators: 100
+    n_estimators: 1000
