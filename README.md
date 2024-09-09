@@ -11,6 +11,15 @@ This project predicts the potability of water using various machine learning alg
 - **Experiment Tracking**: Powered by **MLFlow**, tracking model parameters, metrics, and artifacts to ensure experiment reproducibility.
 - **Model Versioning**: Logging and managing different model versions, facilitating deployment with MLFlow's model registry.
 
+
+## Data and Features
+- **Input Data**: The dataset includes features such as pH, Hardness, Solids, Chloramines, and others relevant to water quality.
+- **Target Variable**: `Potability` - A binary label indicating whether water is potable (1) or not (0).
+
+## How to Run
+1. **Clone the Repository**:
+
+
 ## Project Structure
 
 The project follows the Cookiecutter data science template:
