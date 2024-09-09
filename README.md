@@ -1,7 +1,19 @@
-water-potability
-==============================
+# Water Potability Prediction
 
-water potability prediction using ML
+## Project Overview
+
+This project predicts the potability of water using various machine learning algorithms. It utilizes a comprehensive Machine Learning pipeline with **DVC (Data Version Control)**, **MLFlow** for experiment and model tracking, and a **Cookiecutter** template to maintain the structure of the project.
+
+## Key Features
+
+- **DVC Pipelines**: Used for managing data, creating reproducible pipelines, and versioning datasets.
+- **Cookiecutter Template**: Ensures a well-structured and scalable project layout.
+- **Experiment Tracking**: Powered by **MLFlow**, tracking model parameters, metrics, and artifacts to ensure experiment reproducibility.
+- **Model Versioning**: Logging and managing different model versions, facilitating deployment with MLFlow's model registry.
+
+## Project Structure
+
+The project follows the Cookiecutter data science template:
 
 Project Organization
 ------------
@@ -55,3 +67,5 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
